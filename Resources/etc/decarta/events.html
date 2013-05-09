@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=7, IE=9, IE=10, chrome=1">
+		<title dir="ltr"> Basic Map Demo </title>
+		<meta name="viewport" content="width=device-width; height=device-height; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<link rel="stylesheet" href="css/examples.css">
+		<link rel="stylesheet" href="css/core.css">
+
+		<!--<script src="Config.js"></script> -->
+		<script src="deCarta.JS3.js"></script>
+		<script src="Config.js"></script>
+	</head>
+	<body class="example">
+		<div id="mapContainer"></div>
+		<div class="description">
+			<h1 class="title">deCarta Map</h1>
+			<a href="" id="demo-show-hide" class='hide'>&#9650;</a>
+		</div>
+	</body>
+	<script>
+				// see Config.js for details
+		deCarta.Core.Configuration.clientName = Config.clientName;
+		deCarta.Core.Configuration.clientPassword = Config.clientPassword;
+		/**
+		* takes passed a standard deCarta.Core.Event instance for all events.
+		*/
+		function eventHandler(event){
+		var eventInfo = document.getElementById("eventInfo");
+		var info = event.eventType +" - "+ event.object.type;
+		eventInfo.innerHTML=info+"
+		"+eventInfo.innerHTML;
+		}
+
+		var polygon = new deCarta.Core.Polygon({
+		vertices: [
+		new deCarta.Core.Position(37.8221, -122.5373),
+		new deCarta.Core.Position(37.7720, -122.5360),
+		new deCarta.Core.Position(37.7709, -122.4714),
+		new deCarta.Core.Position(37.8276, -122.4769)
+		],
+		strokeColor: '#000',
+		fillColor: '#008800'
+		});
+		var pin = new deCarta.Core.Pin({
+		text : "showing text",
+		position: new deCarta.Core.Position(37.7709, -122.4614)
+		})
+		var shapeOverlay = new deCarta.Core.MapOverlay();
+		var pinOverlay = new deCarta.Core.MapOverlay();
+
+		window.map = new deCarta.Core.Map({
+		id: "mapContainer",
+		zoom: 10,
+		center: new deCarta.Core.Position("37.8276, -122.4769"),
+		onReady: function(map){
+
+		map.addLayer(shapeOverlay);
+		shapeOverlay.addObject(polygon);
+		map.addLayer(pinOverlay);
+		pinOverlay.addObject(pin);
+
+		// pin events
+
+		deCarta.Core.EventManager.listen('click', eventHandler, pin);
+
+		// shape events
+
+		deCarta.Core.EventManager.listen('click', eventHandler, polygon);
+		//objects all have shortcut methods for every event:
+		//same as: deCarta.Core.EventManager.listen('longtouch', eventHandler, polygon);
+		polygon.onlongtouch(eventHandler);
+		polygon.onrightclick(eventHandler);
+
+		// map events
+
+		deCarta.Core.EventManager.listen('moveend', eventHandler, map);
+		deCarta.Core.EventManager.listen('zoomchange', eventHandler, map);
+		deCarta.Core.EventManager.listen('zoomstart', eventHandler, map);
+		deCarta.Core.EventManager.listen('zoomend', eventHandler, map);
+		//same as: deCarta.Core.EventManager.listen('click', eventHandler, map);
+		map.onclick(eventHandler);
+		//same as: deCarta.Core.EventManager.listen('rightclick', eventHandler, map);
+		map.onrightclick(eventHandler);
+		//same as: deCarta.Core.EventManager.listen('doubleclick', eventHandler, map);
+		map.ondoubleclick(eventHandler);
+		}
+		});
+	</script>
+</html>

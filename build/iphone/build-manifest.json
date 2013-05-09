@@ -1,0 +1,22 @@
+{
+	"target": "simulator",
+	"deployType": "development",
+	"deviceFamily": "iphone",
+	"iosSdkPath": "/Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/iphone",
+	"appGuid": "340dfff3-497e-4510-8dc4-94328d3209cb",
+	"tiCoreHash": "77157e1ffaec640cf559356a147b6a4c",
+	"modulesHash": "d41d8cd98f00b204e9800998ecf8427e",
+	"gitHash": "57634ef",
+	"name": "deCarta",
+	"id": "br.com.decarta",
+	"analytics": true,
+	"publisher": "root",
+	"url": "http://",
+	"version": "1.0",
+	"description": "not specified",
+	"copyright": "2013 by root",
+	"guid": "340dfff3-497e-4510-8dc4-94328d3209cb",
+	"skipJSMinification": true,
+	"forceCopy": false,
+	"forceCopyAll": false
+}

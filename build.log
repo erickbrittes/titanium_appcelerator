@@ -1,0 +1,293 @@
+Logfile initialized
+[INFO] logfile = /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build.log
+[INFO] logfile = /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build.log
+[DEBUG] /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/builder.py emulator deCarta /Users/erickfelipebrittes/Documents/development/adt-bundle-mac/sdk /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta br.com.decarta 5 HVGA armeabi-v7a
+[DEBUG] /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/builder.py simulator deCarta /Users/erickfelipebrittes/Documents/development/adt-bundle-mac/sdk /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta br.com.decarta 5 HVGA
+[INFO] Launching Android emulator...one moment
+[DEBUG] From: /Users/erickfelipebrittes/Documents/development/adt-bundle-mac/sdk/tools/emulator
+[DEBUG] SDCard: /Users/erickfelipebrittes/.titanium/android2.sdcard
+[DEBUG] AVD ID: 5
+[DEBUG] AVD Skin: HVGA
+[DEBUG] AVD ABI: armeabi-v7a
+[DEBUG] SDK: /Users/erickfelipebrittes/Documents/development/adt-bundle-mac/sdk
+[INFO] Building deCarta for Android ... one moment
+[INFO] Titanium SDK version: 3.1.0 (04/15/13 18:45 57634ef)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 0 devices/emulators
+[DEBUG] /Users/erickfelipebrittes/Documents/development/adt-bundle-mac/sdk/tools/emulator -avd titanium_5_HVGA -port 5560 -sdcard /Users/erickfelipebrittes/.titanium/titanium_5_HVGA.sdcard -logcat *:d,*,TiAPI:V -no-boot-anim -partition-size 128
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 55 seconds)
+[DEBUG] waited 55.724794 seconds on emulator to get ready
+[INFO] Waiting for the Android Emulator to become available
+[DEBUG] br.com.decarta installed? False
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying CommonJS modules...
+[INFO] Copying project resources..
+[INFO] Detected change in tiapp.xml, or assets deleted. Forcing full re-build...
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/appicon.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/appicon.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/default.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/default.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/app.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/app.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/Config.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/Config.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/core.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/core.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/default.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/default.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/examples.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/examples.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/UI/CopyrightControl.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/UI/CopyrightControl.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/UI/LayerControl.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/UI/LayerControl.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/UI/LocateControl.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/UI/LocateControl.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/UI/OverviewControl.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/UI/OverviewControl.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/UI/PanControl.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/UI/PanControl.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/UI/ScaleControl.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/UI/ScaleControl.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/UI/SelectControl.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/UI/SelectControl.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/UI/TrafficControl.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/UI/TrafficControl.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/UI/ZoomControl.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/UI/ZoomControl.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/css/UI/ZoomControlMobile.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/css/UI/ZoomControlMobile.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/deCarta.JS3.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/deCarta.JS3.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/deCarta.JS3.min.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/deCarta.JS3.min.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/events.html => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/events.html
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/ajax-loader.gif => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/ajax-loader.gif
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/ca.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/ca.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/closedhand.cur => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/closedhand.cur
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/defaultPin.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/defaultPin.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/gps.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/gps.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/gpsHover.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/gpsHover.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/gpsOff.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/gpsOff.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/gpsOn.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/gpsOn.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/HTML5_Logo_64.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/HTML5_Logo_64.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/hybrid_off.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/hybrid_off.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/hybrid_on.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/hybrid_on.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/hybrid_rollover.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/hybrid_rollover.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/launch.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/launch.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/logo.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/logo.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/map_off.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/map_off.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/map_on.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/map_on.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/map_overview_hide.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/map_overview_hide.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/map_overview_show.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/map_overview_show.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/map_rollover.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/map_rollover.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/more.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/more.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/openhand.cur => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/openhand.cur
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/pan.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/pan.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/pan_center.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/pan_center.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/pen.cur => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/pen.cur
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/pin.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/pin.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/plane.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/plane.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/qz_off.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/qz_off.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/qz_on.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/qz_on.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/satellite_off.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/satellite_off.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/satellite_on.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/satellite_on.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/satellite_rollover.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/satellite_rollover.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/spinner.gif => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/spinner.gif
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/traffic.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/traffic.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/traffic_on.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/traffic_on.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/traffic_roll.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/traffic_roll.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/watermark.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/watermark.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/zoom_handle.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/zoom_handle.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/zoom_in.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/zoom_in.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/zoom_out.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/zoom_out.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/img/zoom_rail.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/img/zoom_rail.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/index.html => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/index.html
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/js/UI/.directory => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/js/UI/.directory
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/js/UI/CopyrightControl.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/js/UI/CopyrightControl.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/js/UI/ImagePack.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/js/UI/ImagePack.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/js/UI/LayerControl.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/js/UI/LayerControl.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/js/UI/LocateControl.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/js/UI/LocateControl.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/js/UI/OverviewControl.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/js/UI/OverviewControl.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/js/UI/PanControl.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/js/UI/PanControl.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/js/UI/ScaleControl.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/js/UI/ScaleControl.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/js/UI/SelectControl.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/js/UI/SelectControl.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/js/UI/TrafficControl.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/js/UI/TrafficControl.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/js/UI/ZoomControl.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/js/UI/ZoomControl.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/js/UI/ZoomControlMobile.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/js/UI/ZoomControlMobile.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/prettify/prettify-sublime.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/prettify/prettify-sublime.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/prettify/prettify.css => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/prettify/prettify.css
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/etc/decarta/prettify/prettify.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/etc/decarta/prettify/prettify.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/KS_nav_ui.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/KS_nav_ui.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/KS_nav_views.png => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/KS_nav_views.png
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/ui/common/FirstView.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/ui/common/FirstView.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/ui/handheld/android/ApplicationWindow.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/ui/handheld/android/ApplicationWindow.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/ui/handheld/ApplicationWindow.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/ui/handheld/ApplicationWindow.js
+[TRACE] COPYING CREATED FILE: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/ui/tablet/ApplicationWindow.js => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/ui/tablet/ApplicationWindow.js
+[DEBUG] LiveView not enabled
+[TRACE] Generating Java Classes
+[DEBUG] Processing Android resource drawables
+[DEBUG] app stylesheet => /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/gen/br/com/decarta/ApplicationStylesheet.java
+[DEBUG] copying app icon: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/appicon.png
+[DEBUG] generating theme.xml
+[DEBUG] found drawable-long-land-hdpi splash screen at /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-long-land-hdpi/default.png
+[DEBUG] copying /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-long-land-hdpi/default.png splash screen to /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/res/drawable-long-land-hdpi/background.png
+[DEBUG] found drawable-long-land-ldpi splash screen at /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-long-land-ldpi/default.png
+[DEBUG] copying /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-long-land-ldpi/default.png splash screen to /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/res/drawable-long-land-ldpi/background.png
+[DEBUG] found drawable-long-port-hdpi splash screen at /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-long-port-hdpi/default.png
+[DEBUG] copying /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-long-port-hdpi/default.png splash screen to /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/res/drawable-long-port-hdpi/background.png
+[DEBUG] found drawable-long-port-ldpi splash screen at /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-long-port-ldpi/default.png
+[DEBUG] copying /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-long-port-ldpi/default.png splash screen to /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/res/drawable-long-port-ldpi/background.png
+[DEBUG] found drawable-notlong-land-hdpi splash screen at /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-notlong-land-hdpi/default.png
+[DEBUG] copying /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-notlong-land-hdpi/default.png splash screen to /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/res/drawable-notlong-land-hdpi/background.png
+[DEBUG] found drawable-notlong-land-ldpi splash screen at /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-notlong-land-ldpi/default.png
+[DEBUG] copying /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-notlong-land-ldpi/default.png splash screen to /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/res/drawable-notlong-land-ldpi/background.png
+[DEBUG] found drawable-notlong-land-mdpi splash screen at /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-notlong-land-mdpi/default.png
+[DEBUG] copying /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-notlong-land-mdpi/default.png splash screen to /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/res/drawable-notlong-land-mdpi/background.png
+[DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-notlong-port-hdpi/default.png
+[DEBUG] copying /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-notlong-port-hdpi/default.png splash screen to /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/res/drawable-notlong-port-hdpi/background.png
+[DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-notlong-port-ldpi/default.png
+[DEBUG] copying /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-notlong-port-ldpi/default.png splash screen to /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/res/drawable-notlong-port-ldpi/background.png
+[DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-notlong-port-mdpi/default.png
+[DEBUG] copying /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/res/drawable-notlong-port-mdpi/background.png
+[DEBUG] found splash screen at /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/assets/Resources/default.png
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/gen/br/com/decarta/ApplicationStylesheet.java to javac build list
+[DEBUG] adding /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/gen/br/com/decarta/DecartaActivity.java to javac build list
+[DEBUG] adding /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/gen/br/com/decarta/DecartaAppInfo.java to javac build list
+[DEBUG] adding /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/gen/br/com/decarta/DecartaApplication.java to javac build list
+[DEBUG] adding /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/gen/br/com/decarta/R.java to javac build list
+[DEBUG] Building Java Sources: "/Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/gen/br/com/decarta/ApplicationStylesheet.java" "/Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/gen/br/com/decarta/DecartaActivity.java" "/Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/gen/br/com/decarta/DecartaAppInfo.java" "/Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/gen/br/com/decarta/DecartaApplication.java" "/Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/gen/br/com/decarta/R.java"
+[INFO] Waiting for SDCard to become available..
+[INFO] Compiling Android Resources... This could take some time
+[DEBUG] Android classes.dex built
+[DEBUG] creating unsigned apk: /Users/erickfelipebrittes/Documents/Titanium_Studio_Workspace/deCarta/build/android/bin/app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/UI/CopyrightControl.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/UI/LayerControl.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/UI/LocateControl.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/UI/OverviewControl.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/UI/PanControl.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/UI/ScaleControl.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/UI/SelectControl.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/UI/TrafficControl.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/UI/ZoomControl.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/UI/ZoomControlMobile.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/core.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/default.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/css/examples.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/HTML5_Logo_64.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/ajax-loader.gif
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/ca.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/closedhand.cur
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/defaultPin.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/gps.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/gpsHover.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/gpsOff.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/gpsOn.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/hybrid_off.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/hybrid_on.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/hybrid_rollover.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/launch.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/logo.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/map_off.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/map_on.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/map_overview_hide.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/map_overview_show.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/map_rollover.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/more.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/openhand.cur
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/pan.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/pan_center.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/pen.cur
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/pin.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/plane.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/qz_off.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/qz_on.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/satellite_off.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/satellite_on.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/satellite_rollover.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/spinner.gif
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/traffic.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/traffic_on.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/traffic_roll.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/watermark.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/zoom_handle.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/zoom_in.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/zoom_out.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/img/zoom_rail.png
+[DEBUG] from resource zip => assets/Resources/etc/decarta/js/UI/CopyrightControl.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/js/UI/ImagePack.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/js/UI/LayerControl.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/js/UI/LocateControl.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/js/UI/OverviewControl.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/js/UI/PanControl.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/js/UI/ScaleControl.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/js/UI/SelectControl.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/js/UI/TrafficControl.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/js/UI/ZoomControl.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/js/UI/ZoomControlMobile.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/prettify/prettify-sublime.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/prettify/prettify.css
+[DEBUG] from resource zip => assets/Resources/etc/decarta/prettify/prettify.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/Config.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/deCarta.JS3.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/deCarta.JS3.min.js
+[DEBUG] from resource zip => assets/Resources/etc/decarta/events.html
+[DEBUG] from resource zip => assets/Resources/etc/decarta/index.html
+[DEBUG] from resource zip => assets/Resources/ui/common/FirstView.js
+[DEBUG] from resource zip => assets/Resources/ui/handheld/android/ApplicationWindow.js
+[DEBUG] from resource zip => assets/Resources/ui/handheld/ApplicationWindow.js
+[DEBUG] from resource zip => assets/Resources/ui/tablet/ApplicationWindow.js
+[DEBUG] from resource zip => assets/Resources/KS_nav_ui.png
+[DEBUG] from resource zip => assets/Resources/KS_nav_views.png
+[DEBUG] from resource zip => assets/Resources/app.js
+[DEBUG] from resource zip => assets/Resources/appicon.png
+[DEBUG] from resource zip => assets/Resources/default.png
+[DEBUG] from resource zip => assets/app.json
+[DEBUG] from resource zip => assets/index.json
+[DEBUG] from resource zip => assets/tiapp.xml
+[DEBUG] from resource zip => res/drawable/appicon.png
+[DEBUG] from resource zip => res/drawable/background.png
+[DEBUG] from resource zip => res/drawable/btn_check_buttonless_on_64.png
+[DEBUG] from resource zip => res/drawable/btn_more_64.png
+[DEBUG] from resource zip => res/drawable/disclosure_64.png
+[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
+[DEBUG] from resource zip => res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG] from resource zip => res/layout/titanium_ui_list_item.xml
+[DEBUG] from resource zip => AndroidManifest.xml
+[DEBUG] from resource zip => resources.arsc
+[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_64.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_64.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/thirdparty.jar => org/apache/Commons-NOTICE.txt
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/thirdparty.jar => org/apache/HttpComponents-NOTICE.txt
+[DEBUG] from JAR /Users/erickfelipebrittes/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/android/thirdparty.jar => org/apache/mime4j-NOTICE.txt
+[DEBUG] installing native SDK libs
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.051660 seconds on emulator to get ready
+[INFO] Installing application on emulator
+[INFO] Launching application ... deCarta
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=br.com.decarta/.DecartaActivity }
+
+[INFO] Deployed deCarta ... Application should be running.
